@@ -12,8 +12,6 @@ class InverseNumberStream extends Transform {
 }
 
 const server = http.createServer((req, res) => {
-    
-
     console.log(fullStreamContent)
     
     return res.end(fullStreamContent)
